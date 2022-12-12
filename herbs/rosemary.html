@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="vieport" content="with=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="..//index.htlm"><img src="..//img/agri.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="..//index.html" class="active">Home</a></li>
+                    <li><a href="..//About.html">About</a></li>
+                    <li><a href="..//Crops.html">Crops</a></li>   
+                    <li><a href="..//Contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    </section>
+
+    <div class="sections">
+        <div class="containerss">
+            <div class="names">
+                <h1>ROSEMARY</h1>
+            </div>
+            <div class="contentss">
+                <div class="arti">
+                    <h3>To plant and grow rosemary, follow these steps:
+
+                        <br><br> 1. Choose a location in your garden that receives plenty of sunlight. Rosemary prefers well-drained soil, so make sure the location you choose has good drainage.
+                        
+                        <br><br>2. Prepare the soil by digging a hole that is slightly larger than the rosemary plant’s root ball. Mix some compost or well-rotted manure into the soil to provide nutrients for the plant.
+                        
+                        <br><br>3. Place the rosemary plant in the hole, making sure the top of the root ball is level with the surrounding soil. Fill in the hole with soil and gently pat it down.
+                        
+                        <br><br> 4. Water the soil well to help the rosemary plant settle into its new home.
+                        
+                        <br><br>5. Keep the soil moist but not waterlogged, and fertilize the rosemary every few weeks with a balanced fertilizer to help it grow strong and healthy.
+                        
+                        <br><br>6. As the rosemary grows, you may need to trim it to maintain its shape. Use sharp scissors or pruning shears to carefully cut back any long or overgrown branches.
+                        
+                        <br><br>7. Once the rosemary is established, you can start using the leaves in your cooking. With proper care, your rosemary plant will continue to grow and provide you with fresh herbs for many seasons.</h3>
+                    <div class="button">
+                        <a href="..//herbs.html">Go Back</a>
+                    </div>
+                </div>
+            </div>
+            <div class="image-sec">
+                <img src="img/ro.jpg" >
+            </div>
+        </div>
+    </div>
+
+
+   
+
+
+    
+
+<!------------JAVA script for toggle menu ------------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
+

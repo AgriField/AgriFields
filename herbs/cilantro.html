@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="vieport" content="with=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="..//index.htlm"><img src="..//img/agri.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="..//index.html" class="active">Home</a></li>
+                    <li><a href="..//About.html">About</a></li>
+                    <li><a href="..//Crops.html">Crops</a></li>   
+                    <li><a href="..//Contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    </section>
+
+    <div class="sections">
+        <div class="containerss">
+            <div class="names">
+                <h1>CILANTRO</h1>
+            </div>
+            <div class="contentss">
+                <div class="arti">
+                    <h3>To plant and grow cilantro, follow these steps:
+
+                        <br><br> 1. Choose a location for your cilantro that gets plenty of sunlight. Cilantro prefers well-draining soil that is rich in organic matter. If your soil is heavy or clay-like, consider mixing in some compost or peat moss to improve drainage and add nutrients.
+                        
+                        <br><br>2. Dig a hole that is slightly larger than the root ball of your cilantro plant.
+                        
+                        <br><br>3. Carefully remove the plant from its container and gently loosen the roots with your fingers. This will help the roots grow outward into the surrounding soil.
+                        
+                        <br><br> 4. Place the cilantro plant in the hole and fill in around the roots with soil. Firm the soil down gently with your hands to remove any air pockets.
+                        
+                        <br><br> 5. Water the cilantro well, making sure to moisten the entire root ball. Water your cilantro regularly, keeping the soil evenly moist but not waterlogged.
+                        
+                        <br><br> 6. Fertilize your cilantro every few weeks using a balanced fertilizer. This will help the plant grow healthy and strong.
+                        
+                        <br><br>7. Once your cilantro has grown to a height of about 6 inches, you can begin harvesting the leaves by cutting off the outermost leaves with scissors or a sharp knife. This will encourage the plant to produce more leaves.
+                        
+                        <br><br>With proper care, your cilantro should grow and thrive for many seasons to come.</h3>
+                    <div class="button">
+                        <a href="..//herbs.html">Go Back</a>
+                    </div>
+                </div>
+            </div>
+            <div class="image-sec">
+                <img src="img/cila.jpg" >
+            </div>
+        </div>
+    </div>
+
+
+   
+
+
+    
+
+<!------------JAVA script for toggle menu ------------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
+

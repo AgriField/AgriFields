@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="vieport" content="with=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="..//index.htlm"><img src="..//img/agri.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="..//index.html" class="active">Home</a></li>
+                    <li><a href="..//About.html">About</a></li>
+                    <li><a href="..//Crops.html">Crops</a></li>   
+                    <li><a href="..//Contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    </section>
+
+    <div class="sections">
+        <div class="containerss">
+            <div class="names">
+                <h1>BASIL</h1>
+            </div>
+            <div class="contentss">
+                <div class="arti">
+                    <h3>Basil is a popular herb that is easy to grow and adds flavor to a variety of dishes. Here are the steps for planting and growing basil:
+
+                        <br><br>1. Choose a location in your garden that receives plenty of sunlight. Basil needs at least 6 hours of direct sunlight per day to thrive.
+                        
+                        <br><br>2. Prepare the soil by loosening it with a garden fork and mixing in some compost or well-rotted manure. This will help the soil retain moisture and provide nutrients for your basil.
+                        
+                        <br><br>3. Sow the basil seeds directly in the ground, spacing them about 6 inches apart. Cover the seeds with a thin layer of soil and water them gently.
+                        
+                        <br><br> 4. Keep the soil moist but not waterlogged. Water your basil regularly, especially during dry spells.
+                        
+                        <br><br>5. Once the plants have grown to about 6 inches tall, thin them out so that they are spaced about 12 inches apart. This will give them enough room to grow and will prevent them from becoming overcrowded.
+                        
+                        <br><br>6. As the plants continue to grow, keep an eye out for pests and diseases. Basil is generally resistant to most pests and diseases, but it's still important to monitor your plants regularly.
+                        
+                        <br><br> 7. Prune the basil plants regularly to encourage new growth and to prevent them from flowering. Pinching off the tops of the plants will also help to keep them compact and bushy.
+                        
+                        <br><br>With a little care and attention, your basil plants should thrive and provide you with fresh herbs all season long. Enjoy!</h3>
+                    <div class="button">
+                        <a href="..//herbs.html">Go Back</a>
+                    </div>
+                </div>
+            </div>
+            <div class="image-sec">
+                <img src="img/basil.jpg" >
+            </div>
+        </div>
+    </div>
+
+
+   
+
+
+    
+
+<!------------JAVA script for toggle menu ------------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
+

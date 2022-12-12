@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="vieport" content="with=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="..//index.htlm"><img src="..//img/agri.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="..//index.html" class="active">Home</a></li>
+                    <li><a href="..//About.html">About</a></li>
+                    <li><a href="..//Crops.html">Crops</a></li>   
+                    <li><a href="..//Contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    </section>
+
+    <div class="sections">
+        <div class="containerss">
+            <div class="names">
+                <h1>CORN</h1>
+            </div>
+            <div class="contentss">
+                <div class="arti">
+                    <h3>To plant and grow corn, follow these steps:
+
+                        <br><br>1. Choose a location in your garden that gets plenty of sunlight and has well-draining soil. Corn prefers warm weather, so it's best to plant it in the spring after the last frost has passed.
+                        
+                        <br> <br>2. Before planting, prepare the soil by adding compost or well-rotted manure to improve its fertility and structure. Corn also requires a lot of nitrogen, so you may need to add some fertilizer to the soil.
+                        
+                        <br><br>3. Sow the seeds about 1 inch deep and about 8 inches apart in rows that are 30 inches apart. Keep the soil moist but not waterlogged, and thin the seedlings to about 12 inches apart once they have grown to a few inches tall.
+                        
+                        <br><br>4. As the corn plants grow, keep the soil moist and weed regularly to prevent competition for nutrients and water. Corn plants are heavy feeders, so you may need to fertilize them again when they are about a foot tall.
+                        
+                        <br><br>5. When the corn plants are about 18 inches tall, carefully thin them to about 8 inches apart to give the remaining plants room to grow.
+                        
+                        <br><br>6. As the corn ears mature, keep an eye out for pests and diseases, and take steps to control them if necessary. For example, you can use an insecticidal soap to control corn earworms, or rotate your crops to prevent soil-borne diseases.
+                        
+                        <br><br>7. When the corn ears are plump and the kernels are milky, they are ready to harvest. Simply cut the ears from the plant and enjoy them fresh, or store them in the refrigerator for later use. 
+                        
+                        <br><br>With proper care and attention, your corn plants should produce a bountiful harvest of delicious corn. Good luck with your gardening!</h3>
+                    <div class="button">
+                        <a href="..//vegetable.html">Go Back</a>
+                    </div>
+                </div>
+            </div>
+            <div class="image-sec">
+                <img src="img/corn.jpg" >
+            </div>
+        </div>
+    </div>
+
+
+   
+
+
+    
+
+<!------------JAVA script for toggle menu ------------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
+

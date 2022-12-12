@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="vieport" content="with=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="..//index.htlm"><img src="..//img/agri.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="..//index.html" class="active">Home</a></li>
+                    <li><a href="..//About.html">About</a></li>
+                    <li><a href="..//Crops.html">Crops</a></li>   
+                    <li><a href="..//Contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    </section>
+
+    <div class="sections">
+        <div class="containerss">
+            <div class="names">
+                <h1>CARROTS</h1>
+            </div>
+            <div class="contentss">
+                <div class="arti">
+                    <h3>To plant and grow carrots, follow these steps:
+
+                        <br><br>1. Choose a location in your garden that gets plenty of sunlight and has well-draining soil. Carrots prefer cooler weather, so it's best to plant them in the early spring or late fall.
+                        
+                        <br><br>2. Before planting, prepare the soil by adding compost or well-rotted manure to improve its fertility and structure. Carrots also require a lot of nitrogen, so you may need to add some fertilizer to the soil.
+                        
+                        <br><br>3. Sow the seeds about ¼ inch deep and about 1 inch apart in rows that are 12 inches apart. Keep the soil moist but not waterlogged, and thin the seedlings to about 2 inches apart once they have grown to a few inches tall.
+                        
+                        <br><br>4. As the carrot plants grow, keep the soil moist and weed regularly to prevent competition for nutrients and water.
+                        
+                        <br><br> 5. When the carrot roots are about the size of a pencil, carefully thin them to about 2 inches apart to give the remaining plants room to grow.
+                        
+                        <br><br>6. When the carrot roots are about the size of a finger, they are ready to harvest. Gently dig them up with a garden fork, taking care not to damage the roots. Carrots are best used fresh, but they can also be stored in the refrigerator for later use.
+                        
+                        <br><br> With proper care and attention, your carrot plants should thrive and produce delicious roots that you can enjoy in a variety of dishes. Good luck with your gardening!</h3>
+                    <div class="button">
+                        <a href="..//vegetable.html">Go Back</a>
+                    </div>
+                </div>
+            </div>
+            <div class="image-sec">
+                <img src="img/carrots.jpg" >
+            </div>
+        </div>
+    </div>
+
+
+   
+
+
+    
+
+<!------------JAVA script for toggle menu ------------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
+
